@@ -1,11 +1,13 @@
 {
+  "name": "stringify-array-transform",
+  "description": "trivial JSON.stringify Transform for Arrays",
+  "version": "1.0.3",
   "author": {
     "name": "Kyle E. Mitchell",
     "email": "kyle@kemitchell.com",
     "url": "http://kemitchell.com/"
   },
   "bugs": "https://github.com/kemitchell/stringify-array-transform.js/issues",
-  "description": "trivial JSON.stringify Transform for Arrays",
   "devDependencies": {
     "chai": "^1.10.0",
     "concat-stream": "^1.4.7",
@@ -19,16 +21,14 @@
   "homepage": "https://github.com/kemitchell/stringify-array-transform.js",
   "license": "Apache-2.0",
   "main": "stringify-array-transform.js",
-  "name": "stringify-array-transform",
   "repository": {
     "type": "git",
     "url": "https://github.com/kemitchell/stringify-array-transform.js.git"
   },
   "scripts": {
-    "pre-commit": "npm run lint && npm run test",
     "lint": "jscs stringify-array-transform.js test && jshint stringify-array-transform.js test",
+    "pre-commit": "npm run lint && npm run test",
     "test": "NODE_ENV=test mocha",
     "travis-ci": "npm run pre-commit"
-  },
-  "version": "1.0.3"
+  }
 }
