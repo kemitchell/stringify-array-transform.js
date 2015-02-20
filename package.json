@@ -1,7 +1,7 @@
 {
   "name": "stringify-array-transform",
   "description": "trivial JSON.stringify Transform for Arrays",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Kyle E. Mitchell",
     "email": "kyle@kemitchell.com",
